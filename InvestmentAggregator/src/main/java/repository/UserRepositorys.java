@@ -5,10 +5,10 @@ import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import entity.User;
+import entity.Users;
 
 
 @Repository
-public interface UserRepository extends JpaRepository<User, UUID>{
-	
+public interface UserRepositorys extends JpaRepository<Users, UUID> {
+
 }
